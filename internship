@@ -1,4 +1,4 @@
-
+import matplotlib.pyplot as plt
 import tensorflow as tf
 import tensorrt
 import numpy as np
@@ -13,7 +13,7 @@ train_ds, validation_ds = tfds.load(
 print("Hello")
 IMAGE_SIZE = 224
 NUM_IMAGES = 1000
-
+print("Jevai kadhe jaicha")
 images = []
 labels = []
 
